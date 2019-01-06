@@ -1,0 +1,12 @@
+print "********** WELCOME TO THE MAD LIB GAME! **********\n"
+
+noun1 = raw_input("please give me a noun")
+noun2 = raw_input ("please give me another noun")
+verb1 = raw_input ("please give me a verb")
+place1 = raw_input ("please give me a place")
+adjective1 = raw_input ("please give me an adjective")
+adjective2 = raw_input ("please give me another adjective")
+verb2 = raw_input ("please give me a verb")
+
+
+print "There was once a bunny and %s who were great %s. They liked to %s together. Sometimes they invited each other to %s. Bunny was extremely %s and the %s was super %s. Not only that they also %s together." % (noun1, noun2,verb1,place1,adjective1,noun1,adjective2,verb2)
