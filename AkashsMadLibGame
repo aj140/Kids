@@ -15,3 +15,8 @@ print ( "There was once a boy called %s and a %s dog called %s. They liked to pl
        
 users_feeling = input("How do you feel now?you've written a whole story!")
 print ("Now you've written a whole story,you feel %s" % users_feeling)
+horn = input("Did you like this Mad Lib Game?(Answer with a yes or a no)")
+if (horn == "yes"):
+  print ("Yay!You liked my Mad Lib Game!")
+else:
+  print ("Then I'll try to improve it!")
