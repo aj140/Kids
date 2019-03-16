@@ -1,15 +1,17 @@
-print "WELCOME TO THE MAD LIB GAME!"
+print ("WELCOME TO THE MAD LIB GAME!")
 
-boys_name1 = raw_input("Give me a boy's name please")
-adjective1 = raw_input("Great! Now, give me an adjective.")
-dogs_name1 = raw_input("Next, give me a name.")
-noun1 = raw_input("Awesome! Now, give me a noun.")
-place1 = raw_input("Now, how about a place?")
-adjective2 = raw_input("Another adjective please.")
-name1 = raw_input("Now, give me a name.")
-name2 = raw_input("Now, give me another name.")
-name3 = raw_input("Now, give me another name.")
-verb1 = raw_input("Now, give me a verb ending in ed.")
+boys_name1 = input("Give me a boy's name please")
+adjective1 = input("Great! Now, give me an adjective.")
+dogs_name1 = input("Next, give me a name.")
+noun1 = input("Awesome! Now, give me a noun.")
+place1 = input("Now, how about a place?")
+adjective2 = input("Another adjective please.")
+name1 = input("Now, give me a name.")
+name2 = input("Now, give me another name.")
+name3 = input("Now, give me another name.")
+verb1 = input("Now, give me a verb ending in ed.")
 
-print "There was once a boy called %s and a %s dog called %s. They liked to play with their %s. One day, they went to the %s and felt %s.They met their friends who were called %s, %s, and %s. They %s together." % (boys_name1,adjective1,dogs_name1,noun1,place1,adjective2,name1,name2,name3,verb1)
-
+print ( "There was once a boy called %s and a %s dog called %s. They liked to play with their %s. One day, they went to the %s and felt %s.They met their friends who were called %s, %s, and %s. They %s together." % (boys_name1,adjective1,dogs_name1,noun1,place1,adjective2,name1,name2,name3,verb1) )
+       
+users_feeling = input("How do you feel now?you've written a whole story!")
+print ("Now you've written a whole story,you feel %s" % users_feeling)
