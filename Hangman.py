@@ -1,8 +1,8 @@
 from random import randint
 
 easyArray = ["blue", "red", "cow", "the", "dog", "cat", "tree", "hello", "moon", "father"]
-mediumArray = ["accommodation", "archaeologist", "explanation", "underwater"]
-hardArray = ["psychology", "palaeontologist", "uncharacteristically", "dendrochronological"]
+mediumArray = ["kitchen", "computer", "basketball", "soccer", "circus", "volcano", "explanation", "underwater", "clothing", "flower", "headphones", "rabbit"]
+hardArray = ["accommodation", "archaeologist","psychology", "palaeontologist", "uncharacteristically", "dendrochronological",  "assistant"]
 mothersDayArray = ["celebration","love","mother","happiness","gift","card","flowers"]
 
 wordSetsArray = [easyArray, mediumArray, hardArray, mothersDayArray]
